@@ -1,0 +1,37 @@
+:root{
+    .dark{
+        --white:#ffffff;
+        --black:#000000;
+        --text:#ffffff;
+        --bg:#000000;
+        --border:gray;
+        --tertiary:rgb(168, 168, 17);
+    }
+    .light{
+        --white:#ffffff;
+        --black:#000000;
+        --text:#000000;
+        --bg:#ffffff;
+        --border:gray;
+        --tertiary: rgb(130, 130, 10);
+    }
+}
+
+.tapp-bg{
+    background-color: var(--bg);
+    
+}
+.tapp-text{
+    color:var(--text)
+}
+.tapp-border{
+    border-color:var(--border);
+}
+.explore-button{
+    background-color: var(--tertiary);
+}
+.home-banner{
+    background-image: url('../src/Assets/furniture-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

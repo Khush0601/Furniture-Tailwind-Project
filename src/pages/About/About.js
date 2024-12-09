@@ -1,8 +1,11 @@
 import React from 'react'
+import Nav from '../../component/Nav/Nav'
 
-const About = () => {
+const About = ({isLight}) => {
   return (
-    <div>About</div>
+    <div className={`w-screen  ${isLight?'light':'dark'} tapp-bg`}>
+        <Nav/>
+    </div>
   )
 }
 

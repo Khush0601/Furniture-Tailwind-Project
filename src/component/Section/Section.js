@@ -5,7 +5,7 @@ import Card from '../../component/card'
 const Section = () => {
   return (
     <>
-        <section className='px-5  xs:px-10 '>
+<section className='px-5  xs:px-10 '>
    <div className='h-[700px] py-10 home-banner flex flex-col justify-center items-center'>
         <div className='text-3xl text-center'>Transform Your Space With Our </div>
         <div className='text-3xl text-center'>Premium Furnitures</div>
@@ -38,7 +38,6 @@ const Section = () => {
     </div>
    </div>
    <div className='py-10 px-2 my-4   tapp-bg flex flex-wrap justify-center'>
-  
           {
             data.map((el,i)=>{
               return <Card key={i} el={el} />
@@ -49,7 +48,7 @@ const Section = () => {
    </div>
 
    
-   </section>
+</section>
     </>
   )
 }

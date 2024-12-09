@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import './App.css'
-import Home from './pages/Home/Home'
-import { Navigate, Route,  Routes } from 'react-router'
-import About from './pages/About/About'
+import AppRoutes from './Routes'
+
 
 const App = () => {
   const [isLight,setIsLight]=useState(true)
@@ -13,11 +12,9 @@ const App = () => {
     <input id='themeCheckBox' type='checkbox' checked={isLight} onChange={()=>setIsLight((p)=>!p)}/>
    </div>
     
-     <Routes>
-      <Route index element={<Navigate to="/home"/>}/>
-      <Route path="/home" element={<Home isLight={isLight}/>}/>
-      <Route path="/about"  element={<About isLight={isLight}/>}/>
-     </Routes>
+   <div className={`${isLight?'light':'dark'} tapp-bg`}>
+    <AppRoutes/>
+    </div>
    </>
   )
 }

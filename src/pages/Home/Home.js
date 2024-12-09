@@ -2,9 +2,9 @@ import React from 'react'
 import Footer from '../../component/Footer/footer'
 import Nav from '../../component/Nav/Nav'
 import Section from '../../component/Section/Section'
-const Home = ({isLight}) => {
+const Home = () => {
   return (
-    <div className={`w-screen  ${isLight?'light':'dark'} tapp-bg`}>
+    <div className={'w-screen'}>
     <Nav/>
     <Section/>
     <Footer/>

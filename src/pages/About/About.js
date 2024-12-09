@@ -1,9 +1,9 @@
 import React from 'react'
 import Nav from '../../component/Nav/Nav'
 
-const About = ({isLight}) => {
+const About = () => {
   return (
-    <div className={`w-screen  ${isLight?'light':'dark'} tapp-bg`}>
+    <div className={'w-screen'}>
         <Nav/>
     </div>
   )

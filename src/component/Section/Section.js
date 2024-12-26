@@ -2,7 +2,10 @@ import React from 'react'
 import AboutImg from '../../Assets/AboutImg.jpg'
 import data from '../../Data/data'
 import Card from '../../component/card' 
+
 const Section = () => {
+
+  
   return (
     <>
 <section className='px-5  xs:px-10 '>
@@ -14,7 +17,7 @@ const Section = () => {
         as seating (e.g., stools, chairs, and sofas), eating (tables), storing items, working, and sleeping 
         </div>
         <div className='flex gap-4 my-6'>
-          <button className='px-8 py-2 explore-button rounded-lg'>Shop Now</button>
+          <button className='px-8 py-2 explore-button rounded-lg' >Shop Now</button>
           <button className='px-8 py-2  explore-button rounded-lg'>Explore</button>
         </div>
    </div>

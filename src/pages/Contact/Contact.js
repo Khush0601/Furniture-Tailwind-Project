@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div>
       <Nav/>
-      <section className='h-[700px] contact-banner flex justify-center items-center md:justify-end'>
+      <section className='h-[685px] contact-banner flex justify-center items-center md:justify-end '>
        <div className=' w-[400px] border-2 border-green-700 border-solid rounded-xl m-4 md:mr-24 p-5'>
         <div className='text-2xl'>Contact Us</div>
         <form className='flex flex-col py-4'>
